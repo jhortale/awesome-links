@@ -9,14 +9,20 @@
     "ts-node": "ts-node --compiler-options '{\"module\":\"commonjs\"}'"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.15",
     "@prisma/client": "^2.30.2",
+    "apollo-server-micro": "^3.3.0",
+    "graphql": "^15.6.0",
+    "micro-cors": "^0.1.1",
     "next": "11.0.1",
+    "nexus": "^1.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
+    "@types/micro-cors": "^0.1.2",
     "@types/node": "^16.3.2",
     "@types/react": "^17.0.14",
     "autoprefixer": "^10.3.1",
